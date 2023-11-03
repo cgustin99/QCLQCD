@@ -153,8 +153,6 @@ def H_sector(number_of_lattice_sites, sector):
 
 	return sym.PauliwordOp.from_matrix(ham_matrix)
 
-N = 4
-
 # meson_states, baryon_states = get_basis(N)
 
 # meson_color_singlets = color_singlets(N, meson_states)
